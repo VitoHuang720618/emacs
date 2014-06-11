@@ -1,6 +1,8 @@
+/*.bak
 *~
 *.log
 *.bak
 .DS_Store
+.txt
 eshell/history
 eshll/lastdir

@@ -1,0 +1,3 @@
+alias emacs find-file $1
+alias ll ls -l $*
+alias goto /Users/vito/mybin/goto $1
