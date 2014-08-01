@@ -15,17 +15,17 @@
     ad-do-it
     (kill-buffer orig)))
 
+
 ;; font
 ;; (set-face-attribute 'default nil :font "Edlo")
 (set-face-attribute 'default nil :font "Oxygen Mono")
-;; (set-face-attribute 'default nil :height 130)
+;; (set-face-attribute 'default nil :height 120)
 ;; (set-default-coding-systems 'utf-8)
-(set-fontset-font (frame-parameter nil 'font) 'han (font-spec :family "細明體"))
+;;(set-fontset-font (frame-parameter nil 'font) 'han (font-spec :family "細明體"))
 
-;; line
+;; 行號
 (global-linum-mode 1)
 (global-hl-line-mode 1)
-
 (setq visible-bell t)
 
 ;; flymake-php
@@ -35,6 +35,7 @@
 ;; no bakup files
 (setq-default make-backup-files nil)
 
+;; close welcome message
 (setq inhibit-startup-message t)
 
 ;; y/n to answer
@@ -57,8 +58,19 @@
 
 (global-set-key (kbd "C-x o") 'switch-window)
 
-
-;; remove space
+;; 存檔時移除行尾多餘空白
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
+
+;disable backup
+(setq backup-inhibited t)
+
+;disable auto save
+(setq auto-save-default nil)
+
+;; scroll bar 平滑
+(global-yascroll-bar-mode 1)
+
+;; undo-tree 復原樹
+(global-undo-tree-mode t)
 
 (provide 'init-locales)

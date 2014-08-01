@@ -2,6 +2,9 @@
 #name : class ...
 # --
 class ${class_name} {
-   public function __construct() {
+
+   public function __construct()
+   {
    }
+
 }

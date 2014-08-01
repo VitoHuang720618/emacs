@@ -1,6 +1,6 @@
 #contributor : Andrew Gwozdziewycz <web@apgwoz.com>
 #name : for (...) {...}
 # --
-for (\$i = 0; \$i < \$index; \$i ++) {
+for ($i = 0; $i < $index; $i ++) {
 
 }

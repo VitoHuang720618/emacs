@@ -1,5 +1,128 @@
+l
 ll
-ls
-ls -all
+cd ../
+ll
+cd elpa
+ll
+ll
+cd php-extras-2.2.0.20140405/
+ll
+less README 
+emacs README 
+ll
+clear
+ll
+ll
+cd ../
+ll
+cd php-mode-20140523.1947/
+ll
+ll
+clear
+ll
+emacs /Volumes/HDD/WorkStation/test/index.php 
+cd /Volumes/HDD/WorkStation/test/
+emacs  index.php 
+cd /Volumes/HDD/WorkStation/test/
+emacs index.php 
+cd /Volumes/HDD/WorkStation/test/
+emacs index.php 
+ll
+pwd
 goto
+ll
+pwd
+ll
+ll
+emacs getCCWagers.php
+cd /Volumes/HDD/WorkStation/test/
+emacs index.php 
+ll
+cd ../
+ll
+cd new-nsk/
+ll
+cd www/shell/
+ll
+ls -a
+emacs copyCCWagers.php
+git remote update
+git branch
+git submodule update
+ll
+cd ../
+ll
+cd ../
+ll
+cd common/cc_api/
+ll
+cd cc
+ll
+emacs Orders.php 
+ll
+cd
+cd /Volumes/HDD/WorkStation/pitaya/fuel/app/config/production/
+ll
+cd ../results/
+ll
+cd ../result/
+ll
+emacs web.php 
+ll
+pwd
+pwd
+ll
+vim index.php 
+clear
+ll
+pwd
+brew update
+ll
+pwd
+ll
+pwd
+ll
+emacs Copy.php
+ll
+ll
+cd
+ll
+cd WorkStation/new-nsk/
+ll
+cd www/inte/
+ll
+cd Lib/
+ll
+cd CCWagers/
+ll
+vim Copy.php 
+ll
+clear
+emacs Copy.php 
+ll
+pwd
 exit
+ll
+cd .emacs.d/
+ll
+emacs init.el 
+ll
+cd /Volumes/HDD/WorkStation/phpMyAdmin/
+ll
+l
+exit
+cd /Volumes/HDD/WorkStation/new-nsk/www/
+ll
+cd inte/Lib/
+ll
+cd CC/
+ll
+emacs GetWagers.php 
+ll
+j test
+ll
+cd test
+ll
+cd /Volumes/HDD/WorkStation/test/
+ll
+emacs index.php 

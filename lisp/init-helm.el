@@ -3,7 +3,9 @@
   (global-set-key (kbd "C-l") 'helm-mini)
   (setq enable-recursive-minibuffers t)
   (global-set-key (kbd "C-x b") 'helm-buffers-list)
-  (global-set-key (kbd "C-x f") 'helm-find-files)
+  ;; (global-set-key (kbd "C-x f") 'helm-find-files)
+  ;; 全域搜尋檔案
+  (global-set-key (kbd "C-x f") 'helm-for-files)
   (helm-mode 1)
   (setq helm-idle-delay 0.3
 	helm-input-idle-delay 0.3
