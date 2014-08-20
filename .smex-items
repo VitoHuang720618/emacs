@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
+ fiplr-clear-cache
+ magit-status
+ magit-branch-manager
+ magit-remote-update
+ magit-log
  customize-themes
  eval-buffer
- eshell
- load-theme
- tabbar-ruler-up
- undo-tree-visualizer-mouse-set
- undo-tree-mode
 )
 
 ;; ----- smex-data -----
@@ -34,11 +34,11 @@
  (sr-speedbar-toggle . 1)
  (linum-mode . 6)
  (package-install . 6)
- (magit-log . 1)
+ (magit-log . 2)
  (eshell . 37)
  (helm-multi-swoop . 2)
  (helm-swoop-from-isearch . 3)
- (magit-status . 3)
+ (magit-status . 4)
  (zoom-frm-in . 3)
  (zoom-frm-out . 1)
  (lisp-complete-symbol . 1)
@@ -86,5 +86,8 @@
  (undo-tree-undo . 3)
  (disable-theme . 1)
  (undo-tree-visualizer-mouse-set . 1)
- (customize-themes . 3)
+ (customize-themes . 4)
+ (magit-remote-update . 1)
+ (magit-branch-manager . 1)
+ (fiplr-clear-cache . 2)
 )

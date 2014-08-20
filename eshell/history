@@ -1,41 +1,3 @@
-l
-ll
-cd ../
-ll
-cd elpa
-ll
-ll
-cd php-extras-2.2.0.20140405/
-ll
-less README 
-emacs README 
-ll
-clear
-ll
-ll
-cd ../
-ll
-cd php-mode-20140523.1947/
-ll
-ll
-clear
-ll
-emacs /Volumes/HDD/WorkStation/test/index.php 
-cd /Volumes/HDD/WorkStation/test/
-emacs  index.php 
-cd /Volumes/HDD/WorkStation/test/
-emacs index.php 
-cd /Volumes/HDD/WorkStation/test/
-emacs index.php 
-ll
-pwd
-goto
-ll
-pwd
-ll
-ll
-emacs getCCWagers.php
-cd /Volumes/HDD/WorkStation/test/
 emacs index.php 
 ll
 cd ../
@@ -126,3 +88,41 @@ ll
 cd /Volumes/HDD/WorkStation/test/
 ll
 emacs index.php 
+ll
+cd fuel/app/classes/monitor/
+ll
+cd log/
+ll
+emacs abs.php 
+pwd
+env
+clear
+ll
+whoami
+pwd
+cd ../
+ll
+pwd
+pwd
+ll
+pwd
+pwd
+ll
+j pitaya
+ll
+cd /Volumes/HDD/WorkStation/pitaya/
+ll
+whoami
+pwd
+whoami
+exit
+ll
+vim
+clear
+ll
+exit
+cd /Volumes/HDD/WorkStation/pitaya/fuel/app/classes/monitor/
+ll
+cd log/
+ll
+emacs xx.php 

@@ -9,13 +9,15 @@
 
 (require 'init-ibuffer)
 (require 'init-locales)
-(require 'init-ido)
+;;(require 'init-ido)
 (require 'init-eshell)
 (require 'init-isearch)
 (require 'init-auto-complete)
 ;;(require 'init-helm)
 (require 'init-yasnippets)
-;;(require 'init-undo)
+(require 'init-ac-helm)
+(require 'init-ace-jump)
+(require 'init-fiplr-finder)
 
 
 (provide 'init)
@@ -28,7 +30,7 @@
  '(ansi-color-names-vector ["#272822" "#F92672" "#A6E22E" "#E6DB74" "#66D9EF" "#FD5FF0" "#A1EFE4" "#F8F8F2"])
  '(backup-directory-alist nil)
  '(compilation-message-face (quote default))
- '(custom-enabled-themes (quote (sanityinc-solarized-dark)))
+ '(custom-enabled-themes (quote (monokai)))
  '(custom-safe-themes (quote ("146d24de1bb61ddfa64062c29b5ff57065552a7c4019bee5d869e938782dfc2a" "4aee8551b53a43a883cb0b7f3255d6859d766b6c5e14bcb01bed572fcbef4328" "4cf3221feff536e2b3385209e9b9dc4c2e0818a69a1cdb4b522756bcdf4e00a4" "e2a67a7143a2e7b9f72b1091112afb041ab25ae20931c9a1288db23bca24449b" "60f04e478dedc16397353fb9f33f0d895ea3dab4f581307fbf0aa2f07e658a40" default)))
  '(fci-rule-color "#49483E")
  '(fringe-mode 6 nil (fringe))

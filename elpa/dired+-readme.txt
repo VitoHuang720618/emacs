@@ -231,17 +231,17 @@
 
  Faces defined here:
 
-   `diredp-compressed-file-suffix', `diredp-date-time',
-   `diredp-deletion', `diredp-deletion-file-name',
-   `diredp-dir-heading', `diredp-dir-priv', `diredp-display-msg',
-   `diredp-exec-priv', `diredp-executable-tag', `diredp-file-name',
-   `diredp-file-suffix', `diredp-flag-mark',
+   `diredp-autofile-name', `diredp-compressed-file-suffix',
+   `diredp-date-time', `diredp-deletion',
+   `diredp-deletion-file-name', `diredp-dir-heading',
+   `diredp-dir-priv', `diredp-exec-priv', `diredp-executable-tag',
+   `diredp-file-name', `diredp-file-suffix', `diredp-flag-mark',
    `diredp-flag-mark-line', `diredp-get-file-or-dir-name',
    `diredp-ignored-file-name', `diredp-link-priv',
    `diredp-mode-line-flagged', `diredp-mode-line-marked'
    `diredp-no-priv', `diredp-number', `diredp-other-priv',
    `diredp-rare-priv', `diredp-read-priv', `diredp-symlink',
-   `diredp-write-priv'.
+   `diredp-tagged-autofile-name', `diredp-write-priv'.
 
  Commands defined here:
 
@@ -293,6 +293,7 @@
    `diredp-find-line-file-other-window',
    `diredp-flag-region-files-for-deletion',
    `diredp-grep-this-file', `diredp-hardlink-this-file',
+   `diredp-highlight-autofiles-mode',
    `diredp-image-dired-comment-file',
    `diredp-image-dired-comment-files-recursive',
    `diredp-image-dired-copy-with-exif-name',
@@ -368,6 +369,7 @@
    `diredp-auto-focus-frame-for-thumbnail-tooltip-flag',
    `diredp-image-preview-in-tooltip', `diff-switches',
    `diredp-hide-details-initially-flag' (Emacs 24.4+),
+   `diredp-highlight-autofiles-mode',
    `diredp-hide-details-propagate-flag' (Emacs 24.4+),
    `diredp-prompt-for-bookmark-prefix-flag',
    `diredp-w32-local-drives', `diredp-wrap-around-flag'.
@@ -393,7 +395,7 @@
    `diredp-get-files-for-dir', `diredp-get-subdirs',
    `diredp-hide-details-if-dired' (Emacs 24.4+),
    `diredp-hide/show-details' (Emacs 24.4+),
-   `diredp-image-dired-required-msg',
+   `diredp-highlight-autofiles', `diredp-image-dired-required-msg',
    `diredp-internal-do-deletions', `diredp-list-files',
    `diredp-looking-at-p', `diredp-make-find-file-keys-reuse-dirs',
    `diredp-make-find-file-keys-not-reuse-dirs', `diredp-maplist',
