@@ -1,67 +1,3 @@
-emacs index.php 
-ll
-cd ../
-ll
-cd new-nsk/
-ll
-cd www/shell/
-ll
-ls -a
-emacs copyCCWagers.php
-git remote update
-git branch
-git submodule update
-ll
-cd ../
-ll
-cd ../
-ll
-cd common/cc_api/
-ll
-cd cc
-ll
-emacs Orders.php 
-ll
-cd
-cd /Volumes/HDD/WorkStation/pitaya/fuel/app/config/production/
-ll
-cd ../results/
-ll
-cd ../result/
-ll
-emacs web.php 
-ll
-pwd
-pwd
-ll
-vim index.php 
-clear
-ll
-pwd
-brew update
-ll
-pwd
-ll
-pwd
-ll
-emacs Copy.php
-ll
-ll
-cd
-ll
-cd WorkStation/new-nsk/
-ll
-cd www/inte/
-ll
-cd Lib/
-ll
-cd CCWagers/
-ll
-vim Copy.php 
-ll
-clear
-emacs Copy.php 
-ll
 pwd
 exit
 ll
@@ -126,3 +62,67 @@ ll
 cd log/
 ll
 emacs xx.php 
+ll
+pwd
+clear
+
+ll
+clear
+
+pwd
+j pitaya
+ll
+ll
+pwd
+ll
+pwd
+bord
+bord
+ll
+pwd
+ll
+clear
+bord
+clear
+clear
+bord
+ll
+cat command 
+rm -rf deploymemt.yaml 
+cd kubernetes/
+j k8s
+ll
+php index.php 
+php index.php 
+php index.php 
+ll
+pwd
+j pitaya
+ll
+python main.py 
+python main.py 
+python main.py 
+xxxclear
+l
+python main.py 
+python main.py 
+xxxclear
+python main.py 
+ll
+python3 --version
+htop
+top
+ll
+pwd
+j test
+ll
+ll
+pwd
+clear
+clear
+ll
+pwd
+ll
+gobord
+bord
+clear

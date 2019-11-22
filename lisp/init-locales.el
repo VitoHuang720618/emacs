@@ -1,7 +1,7 @@
 (require 'dired)
 (require 'dired-x)                   ;這行請記得加，不然無法使用隱藏檔案等功能。
 (require 'dired+)
-
+(require 'chinese-fonts-setup)
 ;; 使用單一buff
 ;; 按 Enter 時 Dired 時不會一直開新的 Dired buffer（按 Enter 時只用同一個 Dired 開目錄）
 (defun dired-my-find-alternate-file ()
@@ -12,12 +12,9 @@
 (define-key dired-mode-map (kbd "RET") 'dired-my-find-alternate-file) ; 按 Enter 開檔案
 (put 'dired-find-alternate-file 'disabled nil) ; 避免 Dired 問你一些囉唆的問題
 
-;; font
-;; (set-face-attribute 'default nil :font "Edlo")
-;; (set-face-attribute 'default nil :font "Oxygen Mono")
-;; (set-face-attribute 'default nil :height 120)
-;; (set-default-coding-systems 'utf-8)
-;;(set-fontset-font (frame-parameter nil 'font) 'han (font-spec :family "細明體"))
+;; 指定emacs app 使用source command
+(when (memq window-system '(mac ns x))
+  (exec-path-from-shell-initialize))
 
 ;; 行號
 (global-linum-mode 1)
@@ -34,6 +31,11 @@
 ;; close welcome message
 (setq inhibit-startup-message t)
 
+;; tab 轉4空格
+(setq-default indent-tabs-mode nil)
+(setq-default tab-width 4)
+(setq indent-line-function 'insert-tab)
+
 ;; y/n to answer
 (fset 'yes-or-no-p 'y-or-n-p)
 
@@ -42,7 +44,7 @@
 (setq mac-command-modifier 'meta)
 
 ;; poweline
-(require 'powerline)
+;;(require 'powerline)
 
 (global-anzu-mode +1)
 
@@ -65,5 +67,9 @@
 
 ;; scroll bar 平滑
 (global-yascroll-bar-mode 1)
+
+;; 背景透明
+;;(set-frame-parameter nil 'alpha '(90 70))
+;; Enable company globally for all mode
 
 (provide 'init-locales)

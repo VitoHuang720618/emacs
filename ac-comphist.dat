@@ -1,16 +1,8 @@
-((("setLogPath" .
-   [0 0 0 0 0 0 0 0 0 1])
-  ("modify" .
-   [0 0 0 0 0 1])
-  ("getModify" .
-   [0 0 0 0 0 1 0 0 0])
-  ("protected" .
+((("initRedis" .
    [0 0 0 0 0 0 0 0 1])
-  ("function" .
+  ("initPool" .
    [0 0 0 0 0 0 0 1])
-  ("Config" .
+  ("client" .
    [0 0 0 0 0 1])
-  ("get" .
-   [0 1 0])
-  ("setTitle" .
-   [0 0 0 0 0 0 0 1])))
+  ("Println" .
+   [0 1 0 0 0 0 0])))
